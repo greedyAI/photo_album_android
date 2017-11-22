@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comgreedyai.github.instagramclone.CaptureActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description">
+        <EditText
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Your Description Here"/>
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/picture_view"
+            android:layout_width="fill_parent"
+            android:layout_height="576dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttons"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/retake_photo"
+            android:onClick="retake_photo_onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retake_photo"
+            android:textSize="24sp"
+            android:padding="50px"
+            />
+
+        <Button
+            android:id="@+id/cancel"
+            android:onClick="cancel_onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="24sp"
+            android:padding="50px"/>
+
+        <Button
+            android:id="@+id/save_photo"
+            android:onClick="save_photo_onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_photo"
+            android:textSize="24sp"
+            android:padding="50px"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

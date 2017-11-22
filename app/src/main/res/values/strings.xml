@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string name="retake_photo">Retake</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_photo">Save</string>
+    <string name="photos">Photos</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="description">Description</string>
+    <string name="url">URL</string>
+    <string name="photo_name">Photo Name</string>
+    <string name="persistent_toast">You need to give this app permission to access your camera and storage if you want to continue using it.</string>
+</resources>
